@@ -3,11 +3,7 @@
 - 👋🏻 I'm **Bui Thanh Son - aka Sontbui**
 - 🔭 I’m currently study at [Open University Ho Chi Minh](https://ou.edu.vn)
 
-- 🌱 I’m currently learning **Java, Angular, Spring Boost, Flutter, Swift, Python,...**
-
-- 🤝 I’m looking for help with **Backend Developer**
-
-- 💬 Ask me about **Java, Angular, Spring Boost, Flutter,....**
+- 🤝 This is project I build for my thesis **semester**
 
 - 📫 How to contact me **sonbuithanh306@gmail.com**
 
