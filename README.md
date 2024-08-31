@@ -1,6 +1,6 @@
 
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=sontbui&label=Profile%20views&color=0e75b6&style=flat" alt="sontbui" /> </p>
-- 👋🏻 I'm _Bui Thanh Son_
+- 👋🏻 I'm Bui Thanh Son (sontbui)
 - 🔭 I’m currently study at [Open University Ho Chi Minh](https://ou.edu.vn)
 
 - 🤝 This is project I build for my thesis **semester**
