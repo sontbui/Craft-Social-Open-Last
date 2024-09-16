@@ -1,4 +1,3 @@
-import 'package:clone_gpt/authentications/login_screen.dart';
 import 'package:clone_gpt/authentications/login_screen_dart.dart';
 import 'package:clone_gpt/provider/authentication_provider.dart';
 import 'package:clone_gpt/service/assets_manager.dart';

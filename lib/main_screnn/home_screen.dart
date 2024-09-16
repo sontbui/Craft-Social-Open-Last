@@ -8,7 +8,7 @@ import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreen();
@@ -21,8 +21,8 @@ class _HomeScreen extends State<HomeScreen> {
     const PostScreen(),
     const ProfileScreen(),
   ];
-  final Color darkMode = Color.fromARGB(180, 0, 0, 0);
-  final Color lightMode = Color.fromARGB(255, 0, 0, 0);
+  final Color darkMode = const Color.fromARGB(180, 0, 0, 0);
+  final Color lightMode = const Color.fromARGB(255, 0, 0, 0);
   @override
   Widget build(BuildContext context) {
     final themeStatus = Provider.of<MyThemeProvider>(context);

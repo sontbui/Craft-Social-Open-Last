@@ -8,11 +8,8 @@ import 'package:clone_gpt/models/user_model.dart';
 import 'package:clone_gpt/utility/utility.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:rounded_loading_button_plus/rounded_loading_button.dart';
 
 class AuthenticationProvider extends ChangeNotifier {

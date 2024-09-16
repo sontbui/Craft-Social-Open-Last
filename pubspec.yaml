@@ -54,7 +54,8 @@ dependencies:
   flutter_facebook_auth: ^7.0.0
   introduction_screen: ^3.1.14
   image_picker: ^1.1.2
-  image_cropper: ^8.0.1
+  image_cropper: ^8.0.1 
+  # branch test login 
 
 dev_dependencies:
   flutter_test:

@@ -31,7 +31,6 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-  #  
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 
   # pods
@@ -44,9 +43,7 @@ target 'Runner' do
   pod 'FBSDKLoginKit'
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
-  # 
 
-  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
   target 'RunnerTests' do
     inherit! :search_paths
   end

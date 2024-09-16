@@ -1,5 +1,6 @@
 import 'package:clone_gpt/authentications/registration.dart';
 import 'package:clone_gpt/main_screnn/home_screen.dart';
+import 'package:clone_gpt/provider/authentication_provider.dart';
 import 'package:clone_gpt/service/assets_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
@@ -7,7 +8,7 @@ import 'package:flutter/widgets.dart';
 import 'package:rounded_loading_button_plus/rounded_loading_button.dart';
 
 class LoginScreenDraft extends StatefulWidget {
-  const LoginScreenDraft({Key? key}) : super(key: key);
+  const LoginScreenDraft({super.key});
 
   @override
   State<LoginScreenDraft> createState() => _LoginScreenState();

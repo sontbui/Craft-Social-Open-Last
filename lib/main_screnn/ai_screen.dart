@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AIChatScreen extends StatefulWidget {
-  const AIChatScreen({Key? key}) : super(key: key);
+  const AIChatScreen({super.key});
   @override
   State<AIChatScreen> createState() => _AIChatState();
 }
