@@ -8,6 +8,9 @@
 
 	<key>NSCameraUsageDescription</key>
 	<string>To acsess your camera</string>
+<!-- fix register  -->
+	<key>FirebaseAppDelegateProxyEnabled</key>
+    <true/>
 
 
 	<key>CFBundleDevelopmentRegion</key>
