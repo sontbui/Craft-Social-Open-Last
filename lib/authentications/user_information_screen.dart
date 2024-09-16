@@ -15,7 +15,7 @@ import 'package:rounded_loading_button_plus/rounded_loading_button.dart';
 import 'package:intl/intl.dart';
 
 class UserInformationScreen extends StatefulWidget {
-  const UserInformationScreen({Key? key}) : super(key: key);
+  const UserInformationScreen({super.key});
 
   @override
   State<UserInformationScreen> createState() => _UserInformationScreenState();
@@ -81,7 +81,7 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
                     selectImage(true);
                   },
                   child: const Row(
-                    children: const [
+                    children: [
                       Padding(
                         padding: EdgeInsets.all(4.0),
                         child: Icon(
@@ -98,7 +98,7 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
                     selectImage(false);
                   },
                   child: const Row(
-                    children: const [
+                    children: [
                       Padding(
                         padding: EdgeInsets.all(4.0),
                         child: Icon(
