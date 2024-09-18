@@ -1,6 +1,6 @@
-import 'package:clone_gpt/authentications/user_information_screen.dart';
-import 'package:clone_gpt/provider/authentication_provider.dart';
-import 'package:clone_gpt/service/assets_manager.dart';
+import 'package:Craft_Social_Media/authentications/user_information_screen.dart';
+import 'package:Craft_Social_Media/provider/authentication_provider.dart';
+import 'package:Craft_Social_Media/service/assets_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';

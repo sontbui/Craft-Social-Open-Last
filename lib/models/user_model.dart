@@ -1,4 +1,4 @@
-import 'package:clone_gpt/contains/constains.dart';
+import 'package:Craft_Social_Media/contains/constains.dart';
 
 class UserModel {
   String uid;
