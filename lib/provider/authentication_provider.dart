@@ -167,6 +167,25 @@ class AuthenticationProvider extends ChangeNotifier {
     return await FirebaseAuth.instance.signInWithCredential(credential);
   }
 
+  // verify email - user verify
+  Future<void> sendEmailVerification(User? user) async {
+    if (user != null && !user.emailVerified) {
+      await user.sendEmailVerification();
+      print("Verification email sent.");
+    }
+  }
+
+  // check email was verify or wasn't
+  Future<void> checkEmailVerification() async {
+    User? user = FirebaseAuth.instance.currentUser;
+    await user?.reload(); // Refresh user information
+    if (user != null && user.emailVerified) {
+      print("Email is verified.");
+    } else {
+      print("Email is not verified.");
+    }
+  }
+
   // facebook signin
   // Future<UserCredential> signInWithFacebook() async {
   //   // Trigger the sign-in flow
