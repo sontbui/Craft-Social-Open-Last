@@ -1,7 +1,7 @@
-import 'package:clone_gpt/main_screnn/ai_screen.dart';
-import 'package:clone_gpt/main_screnn/post_screen.dart';
-import 'package:clone_gpt/main_screnn/profile_screen.dart';
-import 'package:clone_gpt/provider/theme_provider.dart';
+import 'package:Craft_Social_Media/main_screnn/ai_screen.dart';
+import 'package:Craft_Social_Media/main_screnn/post_screen.dart';
+import 'package:Craft_Social_Media/main_screnn/profile_screen.dart';
+import 'package:Craft_Social_Media/provider/theme_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

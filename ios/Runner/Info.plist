@@ -10,8 +10,7 @@
 	<string>To acsess your camera</string>
 <!-- fix register  -->
 	<key>FirebaseAppDelegateProxyEnabled</key>
-    <true/>
-
+	<false/>
 
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
@@ -62,8 +61,11 @@
             <key>CFBundleURLSchemes</key>
             <array>
                 <string>app-1-1037277418403-ios-86ceb90f9e43072c2e8016</string>
+				<string>com.googleusercontent.apps.1037277418403-5ljscdrsoamv83gvrhmra900gqb5764l</string>
             </array>
         </dict>
     </array>
+	<key>GIDClientID</key>
+	<string>YOUR_CLIENT_ID.apps.googleusercontent.com</string>
 </dict>
 </plist>

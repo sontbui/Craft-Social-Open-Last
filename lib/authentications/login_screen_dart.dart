@@ -1,10 +1,12 @@
-import 'package:clone_gpt/authentications/registration.dart';
-import 'package:clone_gpt/main_screnn/home_screen.dart';
-import 'package:clone_gpt/provider/authentication_provider.dart';
-import 'package:clone_gpt/service/assets_manager.dart';
+import 'package:Craft_Social_Media/authentications/registration.dart';
+
+import 'package:Craft_Social_Media/main_screnn/home_screen.dart';
+import 'package:Craft_Social_Media/provider/authentication_provider.dart';
+import 'package:Craft_Social_Media/service/assets_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/widgets.dart';
+import 'package:provider/provider.dart';
 import 'package:rounded_loading_button_plus/rounded_loading_button.dart';
 
 class LoginScreenDraft extends StatefulWidget {
@@ -212,8 +214,7 @@ class _LoginScreenState extends State<LoginScreenDraft> {
                           child: const Text(
                             'Submit',
                             style: TextStyle(
-                              color: Colors
-                                  .white, // Đổi màu chữ cho phù hợp với gradient nền
+                              color: Colors.white,
                               fontWeight: FontWeight.bold,
                               fontSize: 18,
                             ),
@@ -283,7 +284,11 @@ class _LoginScreenState extends State<LoginScreenDraft> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         ElevatedButton.icon(
-                          onPressed: () {},
+                          onPressed: () {
+                            final auth = Provider.of<AuthenticationProvider>(
+                                listen: false, context);
+                            auth.signInWithGoogle();
+                          },
                           icon: Image.asset(
                             AssetsManager.googleLogo,
                             width: MediaQuery.of(context).size.width / 5 - 20,

@@ -1,6 +1,6 @@
-import 'package:clone_gpt/authentications/registration.dart';
-import 'package:clone_gpt/main_screnn/home_screen.dart';
-import 'package:clone_gpt/service/assets_manager.dart';
+import 'package:Craft_Social_Media/authentications/registration.dart';
+import 'package:Craft_Social_Media/main_screnn/home_screen.dart';
+import 'package:Craft_Social_Media/service/assets_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:rounded_loading_button_plus/rounded_loading_button.dart';

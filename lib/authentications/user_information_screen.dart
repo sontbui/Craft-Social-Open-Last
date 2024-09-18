@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:clone_gpt/provider/authentication_provider.dart';
-import 'package:clone_gpt/service/assets_manager.dart';
-import 'package:clone_gpt/utility/utility.dart';
+import 'package:Craft_Social_Media/provider/authentication_provider.dart';
+import 'package:Craft_Social_Media/service/assets_manager.dart';
+import 'package:Craft_Social_Media/utility/utility.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
